@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Prasanth | Android Developer | Kotlin, Jetpack Compose & OTT</title>
+<meta name="description" content="Android Developer with 3+ years of software development experience specializing in Kotlin, Java, Jetpack Compose, MVI, ExoPlayer, and OTT application development. Open to international and remote opportunities.">
+<meta property="og:title" content="Prasanth | Android Developer | Kotlin, Jetpack Compose & OTT">
+<meta property="og:description" content="Android Developer specializing in Kotlin, Jetpack Compose, MVI and OTT applications. Open to international and remote opportunities.">
+<meta property="og:type" content="website">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Prasanth","jobTitle":"Android Developer","email":"prasanthofficial044@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Thanjavur","addressRegion":"Tamil Nadu","addressCountry":"IN"},"sameAs":["https://github.com/Prasanth-DEV-S","https://linkedin.com/in/prasanthoffic"]}</script>
+<style>
+:root{--bg:#0d1117;--surface:#151b26;--line:#263044;--text:#eef1f6;--muted:#9aa6ba;--accent:#7c8cff;--accent-ink:#0d1117;color-scheme:dark}
+:root[data-theme="light"]{--bg:#f6f7fb;--surface:#fff;--line:#d9dde8;--text:#14182a;--muted:#525c72;--accent:#3d4fd6;--accent-ink:#fff;color-scheme:light}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f6f7fb;--surface:#fff;--line:#d9dde8;--text:#14182a;--muted:#525c72;--accent:#3d4fd6;--accent-ink:#fff;color-scheme:light}}
+*{box-sizing:border-box}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-behavior:smooth;scroll-padding-top:calc(72px + env(safe-area-inset-top,0px))}
+body{margin:0;background:var(--bg);color:var(--text);font:16px/1.65 "Manrope","Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 24px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{font-weight:800;letter-spacing:.04em;text-decoration:none}
+.links{display:flex;gap:4px;align-items:center}
+.links a{padding:8px 12px;border-radius:8px;text-decoration:none;color:var(--muted);font-size:14px;transition:color .2s,background .2s}
+.links a:hover,.links a.on{color:var(--text);background:var(--surface)}
+.links a.on{box-shadow:inset 0 -2px 0 var(--accent)}
+button,.btn{font:inherit;cursor:pointer}
+.icon{background:none;border:1px solid var(--line);color:var(--text);border-radius:8px;min-width:40px;height:40px}
+#menu{display:none}
+@media(max-width:820px){#menu{display:inline-block}.links{display:none;position:absolute;left:0;right:0;top:64px;background:var(--bg);flex-direction:column;align-items:stretch;padding:12px 24px;border-bottom:1px solid var(--line)}.links.open{display:flex}.links a{padding:12px}}
+section{padding:88px 0 0}
+h1,h2,h3{line-height:1.15;margin:0}
+h2{font-size:clamp(26px,4vw,34px);margin-bottom:28px;letter-spacing:-.01em}
+h3{font-size:18px}
+p{margin:0 0 14px;max-width:68ch}
+.muted{color:var(--muted)}
+.hero{padding-top:72px;display:grid;grid-template-columns:1.25fr .75fr;gap:48px;align-items:center}
+@media(max-width:820px){.hero{grid-template-columns:1fr;gap:36px}}
+.status{display:inline-flex;align-items:center;gap:10px;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:14px;color:var(--muted);margin-bottom:24px}
+.dot{width:8px;height:8px;border-radius:50%;background:#3ecf8e}
+h1{font-size:clamp(34px,6vw,58px);letter-spacing:-.025em;font-weight:800;margin-bottom:20px}
+.role{font-weight:700;margin-bottom:6px}
+.cta{display:flex;flex-wrap:wrap;gap:12px;margin:28px 0 16px}
+.btn{display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:10px;text-decoration:none;border:1px solid var(--line);background:var(--surface);color:var(--text);font-weight:600;transition:transform .2s,border-color .2s}
+.btn:hover{border-color:var(--accent);transform:translateY(-1px)}
+.btn.p{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.small-links{display:flex;gap:20px;font-size:15px}
+.code{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:20px;font:13px/1.8 ui-monospace,"SF Mono",Menlo,Consolas,monospace;overflow-x:auto;color:var(--muted);animation:rise .7s ease both}
+.code b{color:var(--accent);font-weight:600}.code i{color:var(--text);font-style:normal}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:22px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.tag{font-size:13px;border:1px solid var(--line);border-radius:6px;padding:3px 10px;color:var(--muted)}
+.tl{border-left:2px solid var(--line);margin-left:6px}
+.job{position:relative;padding:0 0 36px 28px}
+.job::before{content:"";position:absolute;left:-7px;top:7px;width:12px;height:12px;border-radius:50%;background:var(--bg);border:2px solid var(--accent)}
+.job.now::before{background:var(--accent)}
+.when{font-size:14px;color:var(--muted);margin:2px 0 10px}
+ul{margin:0;padding-left:20px}li{margin-bottom:6px;max-width:68ch}
+.proj{cursor:pointer;text-align:left;width:100%;color:inherit;font:inherit;transition:border-color .2s}
+.proj:hover{border-color:var(--accent)}
+.proj .more{color:var(--accent);font-size:14px;margin-top:14px;display:block}
+dialog{background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:16px;max-width:600px;width:calc(100% - 32px);padding:28px}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.stat{font-size:34px;font-weight:800;line-height:1.1}
+form{display:grid;gap:14px;max-width:560px}
+label{display:grid;gap:6px;font-size:14px;font-weight:600}
+input,textarea{font:inherit;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:10px;padding:12px}
+.hp{position:absolute;left:-9999px}
+#fmsg{min-height:24px;font-size:14px}
+footer{margin-top:96px;border-top:1px solid var(--line);padding:28px 0;color:var(--muted);font-size:14px}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav aria-label="Main">
+<a class="logo" href="#top">PRASANTH</a>
+<div class="links" id="links">
+<a href="#about">About</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#achievements">Results</a><a href="#education">Education</a><a href="#contact">Contact</a>
+</div>
+<div><button class="icon" id="theme" aria-label="Switch color theme">◐</button> <button class="icon" id="menu" aria-label="Open menu" aria-expanded="false">☰</button></div>
+</nav></div></header>
+
+<main id="top">
+<div class="wrap">
+<div class="hero">
+<div>
+<div class="status"><span class="dot" aria-hidden="true"></span>Open to International Opportunities</div>
+<p class="role">PRASANTH · Android Developer</p>
+<h1>Building Reliable Android Experiences for the Real World.</h1>
+<p class="muted">I'm Prasanth, an Android Developer specializing in Kotlin, Jetpack Compose, modern Android architecture, and OTT application development. I build responsive, scalable, and user-focused mobile applications.</p>
+<p class="muted">India | Open to US Relocation | Remote Opportunities</p>
+<div class="cta"><a class="btn p" href="#projects">View My Projects</a><a class="btn" href="#resume">Download Resume</a><a class="btn" href="#contact">Contact Me</a></div>
+<div class="small-links"><a href="https://github.com/Prasanth-DEV-S" rel="noopener">GitHub</a><a href="https://linkedin.com/in/prasanthoffic" rel="noopener">LinkedIn</a></div>
+</div>
+<div class="code" aria-hidden="true"><b>@Composable</b><br><b>fun</b> <i>PlayerScreen</i>(state: PlayerState) {<br>&nbsp;&nbsp;<b>when</b> (state) {<br>&nbsp;&nbsp;&nbsp;&nbsp;is Loading -&gt; <i>Spinner</i>()<br>&nbsp;&nbsp;&nbsp;&nbsp;is Playing -&gt; <i>Media3Player</i>()<br>&nbsp;&nbsp;&nbsp;&nbsp;is Error -&gt; <i>Retry</i>()<br>&nbsp;&nbsp;}<br>}</div>
+</div>
+
+<section id="about"><h2>About</h2>
+<p>I'm an Android Developer with 3+ years of professional software development experience, including 2+ years focused on native Android application development.</p>
+<p>My experience includes developing production applications using Kotlin, Java, Jetpack Compose, MVVM, MVI, and Clean Architecture.</p>
+<p>Currently, I'm working on an OTT application using Kotlin, Jetpack Compose, MVI, and ExoPlayer / Android Media3.</p>
+<p>I enjoy solving engineering problems, improving application performance, integrating backend services, and building applications that provide reliable user experiences. Alongside Android, I have experience with Angular, Spring Boot, Firebase, Python, and AI-powered applications.</p>
+</section>
+
+<section id="skills"><h2>Technical Skills</h2><div class="grid" id="skillgrid"></div></section>
+
+<section id="experience"><h2>Professional Experience</h2><div class="tl">
+<div class="job now"><h3>Android Developer · X-YUG Technologies Pvt Ltd</h3><div class="when">September 2026 – Present · OTT Application Development</div>
+<ul><li>Develop and maintain native Android OTT app features with Kotlin, Jetpack Compose, and MVI.</li><li>Contribute to ExoPlayer / Android Media3 integration and video playback features.</li><li>Integrate REST APIs and improve performance and stability.</li><li>Debug and test features with backend developers, designers, and QA.</li></ul></div>
+<div class="job"><h3>Android Developer · Bhaarath Marine Tech Pvt Ltd</h3><div class="when">September 2025 – August 2026</div>
+<ul><li>Enhanced the Equipment Maintenance &amp; Service Tracker app in Java, owning features for marine instruments.</li><li>Built repair-history logging, routine maintenance scheduling, and spare-parts inventory tracking.</li></ul></div>
+<div class="job"><h3>Android Developer · Sardonyx Technologies Private Limited</h3><div class="when">October 2023 – September 2025 · Thanjavur</div>
+<ul><li>Built and maintained production apps in Kotlin, Java, Jetpack Compose, and MVVM, from requirements through Google Play deployment.</li><li>Reduced app load time from 60 to 30 seconds and cut crash rate by 30% using code optimization and Firebase Crashlytics.</li><li>Integrated REST APIs, Firebase Authentication, Firestore, and Room for background services, push notifications, and offline-first behavior.</li></ul></div>
+<div class="job"><h3>Application Developer (Angular) · JJ Soft Techno Private Limited</h3><div class="when">February 2023 – June 2023 · Chennai</div>
+<ul><li>Built web applications with Angular, JavaScript, and TypeScript; optimized API integrations and fixed UI, navigation, and form-validation issues.</li></ul></div>
+</div></section>
+
+<section id="projects"><h2>Featured Projects</h2><div class="grid" id="projgrid"></div></section>
+
+<section id="achievements"><h2>Verified Results</h2><div class="grid">
+<div class="card"><div class="stat">60s → 30s</div><p class="muted">App load time, a 50% reduction (Sardonyx Technologies)</p></div>
+<div class="card"><div class="stat">30%</div><p class="muted">Crash-rate reduction (Sardonyx Technologies)</p></div>
+<div class="card"><div class="stat">&lt; 5s</div><p class="muted">OTP login completion in HomGenZ</p></div>
+<div class="card"><div class="stat">50+</div><p class="muted">PDFs indexed in the AI Document Search System</p></div>
+<div class="card"><div class="stat">~90%</div><p class="muted">OCR extraction accuracy in the same system</p></div>
+</div></section>
+
+<section id="education"><h2>Education &amp; Certification</h2><div class="grid">
+<div class="card"><h3>B.E. Computer Science and Engineering</h3><p class="muted">St. Joseph's College of Engineering and Technology, Thanjavur · 2018 – 2022</p></div>
+<div class="card"><h3>AI Fundamentals by Google</h3><p class="muted">March 2026 – April 2026 · Credential ID: Z3O69KTLQM5D</p></div>
+</div></section>
+
+<section id="github"><h2>GitHub</h2>
+<p class="muted">Source for my public work lives on GitHub.</p>
+<a class="btn" href="https://github.com/Prasanth-DEV-S" rel="noopener">Browse github.com/Prasanth-DEV-S</a></section>
+
+<section id="resume"><h2>Resume</h2>
+<p class="muted">The full resume is available on request, and my work history is on LinkedIn.</p>
+<div class="cta"><a class="btn p" href="mailto:prasanthofficial044@gmail.com?subject=Resume%20request">Request resume by email</a><a class="btn" href="https://linkedin.com/in/prasanthoffic" rel="noopener">View LinkedIn profile</a></div></section>
+
+<section id="contact"><h2>Let's Build Something Great Together.</h2>
+<p class="muted">I'm open to discussing Android engineering opportunities, international collaborations, and interesting product development challenges.</p>
+<p><a href="mailto:prasanthofficial044@gmail.com">prasanthofficial044@gmail.com</a> · +91-9345540171</p>
+<form id="cf" novalidate>
+<label>Name<input name="name" required maxlength="80" autocomplete="name"></label>
+<label>Email<input name="email" type="email" required maxlength="120" autocomplete="email"></label>
+<label>Subject<input name="subject" required maxlength="120"></label>
+<label>Message<textarea name="message" rows="5" required maxlength="2000"></textarea></label>
+<input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button class="btn p" type="submit">Open email draft</button>
+<div id="fmsg" role="status" class="muted">This opens your email app with the message ready to send. Nothing is sent until you send it.</div>
+</form></section>
+</div>
+</main>
+<footer><div class="wrap">© 2026 Prasanth · Thanjavur, Tamil Nadu, India</div></footer>
+
+<script>
+var skills={"Programming Languages":["Kotlin","Java","Python","JavaScript"],"Android Development":["Android SDK","Jetpack Compose","XML","Android Studio","MVI","MVVM","Clean Architecture","Hilt / Dagger","Coroutines","Flow","Room Database","Retrofit","Navigation Component"],"Media & OTT":["ExoPlayer","Android Media3","OTT Application Development","Video Playback Integration"],"Backend & Cloud":["REST APIs","Firebase Authentication","Firestore","Firebase Cloud Messaging","Spring Boot","FastAPI"],"Testing & Tools":["Manual Testing","JUnit","MockK","Git","GitHub","Postman","Google Play Console","Firebase Crashlytics"]};
+var sg=document.getElementById("skillgrid");
+Object.keys(skills).forEach(function(k){var c=document.createElement("div");c.className="card";var h=document.createElement("h3");h.textContent=k;var t=document.createElement("div");t.className="tags";skills[k].forEach(function(s){var x=document.createElement("span");x.className="tag";x.textContent=s;t.appendChild(x)});c.appendChild(h);c.appendChild(t);sg.appendChild(c)});
+
+var projects=[
+{n:"HomGenZ – Service Booking Platform",c:"Android Application",t:["Kotlin","Jetpack Compose","Hilt","Firebase","MVVM","Coroutines","Flow","Retrofit"],d:"An Android service-booking platform connecting customers with service providers, with a companion Admin Android app.",f:["OTP authentication, with login completion under 5 seconds","Service catalog","Real-time booking updates","REST API integration and Firebase Firestore","Admin app with multi-role workflows","Push notifications"],s:"Google Play Console closed testing (pre-launch)"},
+{n:"OTT Application",c:"Current professional project",t:["Kotlin","Jetpack Compose","MVI","ExoPlayer / Media3"],d:"I'm contributing to a native Android OTT application at X-YUG Technologies. Employer source code, screenshots, and internal details are not published here.",f:["Modern Android architecture","Media playback integration","UI state management","Video playback features"],s:"In active development"},
+{n:"AI Document Search System",c:"AI / Backend project",t:["Python","FastAPI","Streamlit","Tesseract OCR","RAG"],d:"An AI-powered document search system that extracts and indexes document content for retrieval.",f:["PDF processing","OCR extraction","Retrieval-Augmented Generation","Search across indexed documents","50+ PDFs indexed at ~90% OCR extraction accuracy"],s:"Independent project, Jan 2026 – Feb 2026"},
+{n:"Restaurant POS & Management System",c:"Independent client project",t:["Java 17","JavaFX 17","SQLite","Firebase"],d:"A desktop billing and management solution built for a restaurant client to support day-to-day operations. The client is not named.",f:["Billing and invoice generation","Menu and session-based menu management","Offline-first SQLite database","Cloud synchronization architecture","Administrative management"],s:"Completed"}];
+var pg=document.getElementById("projgrid"),dlg=document.createElement("dialog");dlg.setAttribute("aria-labelledby","dt");document.body.appendChild(dlg);
+function el(tag,txt,cls){var e=document.createElement(tag);if(txt)e.textContent=txt;if(cls)e.className=cls;return e}
+projects.forEach(function(p){var b=el("button",null,"card proj");b.type="button";b.appendChild(el("p",p.c,"muted"));b.appendChild(el("h3",p.n));var tg=el("div",null,"tags");p.t.slice(0,4).forEach(function(x){tg.appendChild(el("span",x,"tag"))});b.appendChild(tg);b.appendChild(el("span","View details","more"));b.onclick=function(){open(p)};pg.appendChild(b)});
+function open(p){dlg.textContent="";var h=el("h3",p.n);h.id="dt";dlg.appendChild(el("p",p.c,"muted"));dlg.appendChild(h);dlg.appendChild(el("p",p.d));var u=el("ul");p.f.forEach(function(f){u.appendChild(el("li",f))});dlg.appendChild(u);var tg=el("div",null,"tags");p.t.forEach(function(x){tg.appendChild(el("span",x,"tag"))});dlg.appendChild(tg);dlg.appendChild(el("p","Status: "+p.s,"muted")).style.marginTop="16px";var c=el("button","Close","btn");c.type="button";c.onclick=function(){dlg.close()};dlg.appendChild(c);dlg.showModal()}
+dlg.addEventListener("click",function(e){if(e.target===dlg)dlg.close()});
+
+var links=document.getElementById("links"),menu=document.getElementById("menu");
+menu.onclick=function(){var o=links.classList.toggle("open");menu.setAttribute("aria-expanded",o)};
+links.addEventListener("click",function(){links.classList.remove("open");menu.setAttribute("aria-expanded","false")});
+var secs=[].slice.call(document.querySelectorAll("section[id]")),as=[].slice.call(links.querySelectorAll("a"));
+if("IntersectionObserver" in window){var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){as.forEach(function(a){a.classList.toggle("on",a.getAttribute("href")==="#"+e.target.id)})}})},{rootMargin:"-40% 0px -55% 0px"});secs.forEach(function(s){io.observe(s)})}
+document.getElementById("theme").onclick=function(){var r=document.documentElement,cur=r.dataset.theme||(matchMedia("(prefers-color-scheme: light)").matches?"light":"dark");r.dataset.theme=cur==="dark"?"light":"dark"};
+
+document.getElementById("cf").addEventListener("submit",function(e){e.preventDefault();var f=e.target,m=document.getElementById("fmsg");
+if(f.website.value){return}
+var n=f.name.value.trim(),em=f.email.value.trim(),s=f.subject.value.trim(),b=f.message.value.trim();
+if(!n||!s||!b||!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(em)){m.textContent="Fill in every field and use a valid email address.";return}
+var body="From: "+n+" <"+em+">\n\n"+b;
+location.href="mailto:prasanthofficial044@gmail.com?subject="+encodeURIComponent(s)+"&body="+encodeURIComponent(body);
+m.textContent="Your email app should open with the draft. If it doesn't, write to prasanthofficial044@gmail.com directly."});
+</script>
+</body>
+</html>
